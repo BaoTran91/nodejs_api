@@ -1,0 +1,23 @@
+{
+  "name": "api_sample",
+  "version": "1.0.0",
+  "description": "node.js api playground",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "js-add": "node add.js",
+    "say-hello": "echo 'Hello World'", 
+    "presay-hello": "echo 'I run before say-hello'",
+    "postsay-hello": "echo 'I run after say-hello'",
+    "awesome-npm": "npm run say-hello && echo 'echo NPM is awesome!'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Bao",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
